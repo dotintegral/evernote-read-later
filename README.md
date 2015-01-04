@@ -1,5 +1,5 @@
-evernote-read-later
-===================
+Evernote Read Later Chrome Extension
+====================================
 
 A chrome extension that shows evernote notes marked with 'read-later' tag.
 
