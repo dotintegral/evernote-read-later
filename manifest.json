@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+
+    "name": "Evernote Read Later",
+    "description": "This extension allows you to display evernote notes marked as 'read later'",
+    "version": "1.0",
+
+    "permissions": [
+        "tabs",
+        "storage",
+        "https://evernote.com/",
+        "https://sandbox.evernote.com/"
+    ],
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [{
+        "matches": ["*://sandbox.evernote.com/*"],
+        "js": ["lib/underscore-min.js", "js/evernote-auth.js"]
+    }],
+    "chrome_url_overrides": {
+        "newtab": "newtab.html"
+    }
+}

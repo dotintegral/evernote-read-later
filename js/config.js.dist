@@ -1,0 +1,6 @@
+var config = {
+    consumerKey: "<your key>",
+    consumerSecret: "<your secret>",
+    evernoteURL: "https://sandbox.evernote.com",
+    readLaterTagName: "read-later"
+}
