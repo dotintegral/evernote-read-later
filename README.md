@@ -11,9 +11,11 @@ will face an error or exception. Yeah, alpha stage is so much fun.
 
 Dependencies
 ------------
-Extension uses the following external dependencies (included in lib/ directory):
+Extension uses the following external dependencies, so kudos to their creators.
 
 * evernote-sdk - see https://github.com/evernote/evernote-sdk-js
 * jsOAuth - see https://github.com/bytespider/jsOAuth
 * underscore - because I'm lazy
 * jQuery - I'm sooooo lazy....
+
+Dependencies are now handled by Bower, see http://bower.io/ for more details
