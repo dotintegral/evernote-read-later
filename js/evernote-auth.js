@@ -17,8 +17,6 @@ if (/chrome-read-later-extension/.test(url)) {
                 oauth_verifier: ver
             }, function () {
                 alert("please reopen empty tab");
-                //document.location.href = "chrome://newtab";
-                //document.location.href = "chrome-extension://" + chrome.runtime.id + "/newtab.html";
             });
         }
     });
