@@ -1,0 +1,28 @@
+{
+  "name": "Evernote Read Later",
+  "version": "0.0.1",
+  "homepage": "https://github.com/dotintegral/evernote-read-later",
+  "authors": [
+    "Artur Siery"
+  ],
+  "description": "Chrome extension to display evernote notes marked with tag 'read-later'",
+  "main": "newtab.html",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3",
+    "underscore": "~1.7.0",
+    "evernote-sdk-js": "evernote/evernote-sdk-js#~1.25.3",
+    "jsOAuth": "bytespider/jsOAuth#~1.3.7"
+  }
+}
