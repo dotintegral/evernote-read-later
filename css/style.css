@@ -1,5 +1,8 @@
 body {
-    background: #f8f8f8;
+    background: #3f3f3f;
+    margin: 0px 0px;
+    box-shadow: 0px 0px 10px 0px black inset;
+    height: 100vh;
 }
 
 a {
@@ -7,12 +10,12 @@ a {
 }
 
 .wrapper {
-    width: 80%;
+    width: 1016px;
     margin: 0px auto;
+    padding: 4px;
     background: #fff;
-    border: solid 2px #ececec;
-    height: 600px;
     overflow: auto;
+    box-shadow: 0px 0px 10px 0px rgb(184, 184, 184) inset;
 }
 
 .template {
@@ -20,16 +23,17 @@ a {
 }
 
 .note {
+    box-shadow: 0px 0px 10px 0px rgb(184, 184, 184);
     display: block;
     width: 238px;
-    border: solid 1px #ececec;
     height: 200px;
     box-sizing: border-box;
-    margin: 8px 8px;
+    margin: 8px;
     padding: 5px 8px;
     float: left;
     position: relative;
     overflow: hidden;
+    background: #2dbe60;
 }
 
 .note-title-container {
@@ -39,17 +43,17 @@ a {
 
 .note .note-title {
     font-size: 26px;
-    color: #2dbe60;
     position: absolute;
     bottom: 10px;
     width: 220px;
     overflow: hidden;
     text-overflow: ellipsis;
+    color: white;
 }
 
 .note .note-date {
     text-align: right;
     font-size: 18px;
-    color: #868686;
+    color: #C4E9CF;
     text-decoration: none;
 }
