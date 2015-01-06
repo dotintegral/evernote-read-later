@@ -76,10 +76,12 @@ renderNotes = function (noteList) {
         container = $(".notes");
 
     _.each(noteList.notes, function (note) {
-        var html = template
-            .replace("$title", note.title)
-            .replace("$url", note.title)
-            .replace("$date", (new Date(note.updated)).toLocaleDateString());
+        var url = hostname + "/Home.action#st=p&n=" + note.guid + "&b=" + note.notebookGuid + "&ses=4&sh=1&sds=5&",
+            date = (new Date(note.updated)).toLocaleDateString(),
+            html = template
+                .replace("$title", note.title)
+                .replace("$url", url)
+                .replace("$date", date);
 
         container.append($(html));
     });
