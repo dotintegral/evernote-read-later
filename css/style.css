@@ -36,6 +36,41 @@ a {
     background: #2dbe60;
 }
 
+.note:before,
+.note:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 60px;
+    background: white;
+    position: absolute;
+    transform: rotate(45deg);
+    opacity: 1;
+    transition: bottom 0.3s, left 0.3s, top 0.3s, right 0.3s, opacity 0.3s;
+}
+
+.note:before {
+    top: -60px;
+    right: -60px;
+}
+
+.note:after {
+    bottom: -60px;
+    left: -60px;
+}
+
+.note:hover:before {
+    top: -30px;
+    right: -30px;
+    opacity: 0.8;
+}
+
+.note:hover:after {
+    bottom: -30px;
+    left: -30px;
+    opacity: 0.8;
+}
+
 .note-title-container {
     position: relative;
     height: 150px;

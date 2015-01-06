@@ -76,7 +76,7 @@ renderNotes = function (noteList) {
         container = $(".notes");
 
     _.each(noteList.notes, function (note) {
-        var url = hostname + "/Home.action#st=p&n=" + note.guid + "&b=" + note.notebookGuid + "&ses=4&sh=1&sds=5&",
+        var url = hostname + "/Home.action#n=" + note.guid + "&ses=4&sh=2&sds=5&";
             date = (new Date(note.updated)).toLocaleDateString(),
             html = template
                 .replace("$title", note.title)
