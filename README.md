@@ -9,6 +9,12 @@ This is an early alpha so propably nothing will work as expeced. I'm pretty sure
 will face an error or exception. Yeah, alpha stage is so much fun.
 
 
+Screenshot
+----------
+
+![](https://raw.githubusercontent.com/dotintegral/evernote-read-later/master/preview.png)
+
+
 Dependencies
 ------------
 Extension uses the following external dependencies, so kudos to their creators.
